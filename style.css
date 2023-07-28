@@ -1,4 +1,22 @@
 *{
     margin: 0;
     border: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+
+.topo{
+    background-color: #fff;
+}
+
+.anuncio1{
+    background-color: #233032;
+}
+
+.informacoes{
+    background-color: #f6f6f6;
+}
+
+.tabela{
+    background-color: #a89f9f;
 }
