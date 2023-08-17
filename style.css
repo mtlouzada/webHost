@@ -1,30 +1,53 @@
-*{
+* {
     margin: 0;
     border: 0;
     scroll-behavior: smooth;
     font-family: 'Poppins';
 }
 
-.topo{
+.topo {
+    height: 100px;
     background-color: #fff;
+    padding: 35px 0px;
 }
 
-.topo p{
+.topo p {
     color: #2f86d6;
 }
 
-.anuncio1{
+.menu-topo {
+    width: 1024px;
+}
+
+.img-logo{
+    width: 70px;
+}
+
+.banner1 {
+    background-color: #2f86d6;
+    padding: 180px 0px;
+    height: 200px;
+}
+.sub-banner1{
+    width: 1024px;
+}
+
+.sub-banner2{
+    width: 470px;
+}
+
+.anuncio1 {
     background-color: #233032;
 }
 
-.informacoes{
+.informacoes {
     background-color: #f6f6f6;
 }
 
-.tabela{
+.tabela {
     background-color: #a89f9f;
 }
 
-img{
+img {
     width: 200px;
 }
