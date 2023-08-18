@@ -6,9 +6,10 @@
 }
 
 .topo {
-    height: 100px;
+    height: 80px;
     background-color: #fff;
     padding: 35px 0px;
+    display: flex;
 }
 
 .topo p {
@@ -17,6 +18,11 @@
 
 .menu-topo {
     width: 1024px;
+    display: flex;
+}
+
+.sub-menu {
+    display: flex;
 }
 
 .img-logo{
@@ -30,6 +36,11 @@
 }
 .sub-banner1{
     width: 1024px;
+    display: flex;
+}
+
+.sub-banner1 img {
+    width: 50%;
 }
 
 .sub-banner2{
@@ -38,16 +49,86 @@
 
 .anuncio1 {
     background-color: #233032;
+    padding: 40px 0px;
+    height: 40px;
+}
+
+.sub-anuncio1 {
+    width: 1024px;
+    display: flex;
+}
+
+.sub-anuncio1-2 {
+    width: 600px;
 }
 
 .informacoes {
     background-color: #f6f6f6;
+    padding: 100px 0px;
+}
+
+.sub-informacoes1 {
+    width: 900px;
+}
+
+.sub-informacoes2 {
+    width: 1024px;
+    display: flex;
+}
+
+.sub-informacoes2-1{
+    width: 33%;
+}
+
+.sub-informacoes2-2{
+    width: 33%;
+}
+
+.sub-informacoes2-3{
+    width: 33%;
 }
 
 .tabela {
     background-color: #a89f9f;
+    padding: 100px 0px;
+}
+
+.sub-tabela {
+    width: 1024px;
+}
+
+.anuncio2 {
+    background-color: #2f86d6;
+    padding: 40px 0px;
+    height: 40px;
+}
+
+.sub-anuncio2 {
+    width: 1024px;
+    display: flex;
+}
+
+.sub-anuncio2-2 {
+    width: 600px;
 }
 
 img {
     width: 200px;
+}
+
+.rodape {
+    padding: 100px 0px;
+}
+
+.sub-rodape {
+    width: 320px;
+    display: flex;
+}
+
+.sub-rodape1 {
+    width: 900px;
+}
+
+.sub-rodape2 {
+    padding: 20px 0px;
 }
