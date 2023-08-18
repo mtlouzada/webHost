@@ -6,7 +6,7 @@
 }
 
 .topo {
-    height: 100px;
+    height: 80px;
     background-color: #2f86d6;
     padding: 35px 0px;
 }
@@ -17,4 +17,30 @@
 
 .menu-topo {
     width: 1024px;
+    display: flex;
+}
+
+.tabela {
+    padding: 100px 0px;
+}
+
+.sub-tabela {
+    width: 1024px;
+}
+
+.rodape {
+    padding: 100px 0px;
+}
+
+.sub-rodape {
+    width: 320px;
+    display: flex;
+}
+
+.sub-rodape2 {
+    padding: 20px 0px;
+}
+
+img {
+    width: 150px;
 }
