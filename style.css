@@ -12,7 +12,13 @@
     display: flex;
 }
 
+h1 {
+    font-size: 16px;
+    color: #000000;
+}
+
 .topo p {
+    font-size: 16px;
     color: #2f86d6;
 }
 
@@ -23,6 +29,12 @@
 
 .sub-menu {
     display: flex;
+}
+
+.sub-menu a {
+    font-size: 18px;
+    color: #233032;
+    text-decoration: none;
 }
 
 .img-logo{
