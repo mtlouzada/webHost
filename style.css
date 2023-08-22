@@ -59,6 +59,16 @@ h1 {
     width: 470px;
 }
 
+.sub-banner2 p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sub-banner2 h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
 .anuncio1 {
     background-color: #233032;
     padding: 40px 0px;
@@ -70,8 +80,25 @@ h1 {
     display: flex;
 }
 
+.sub-anuncio1 a {
+    font-size: 18px;
+    color: #fff;
+    background-color: #2f86d6;
+    text-decoration: none;
+}
+
 .sub-anuncio1-2 {
     width: 600px;
+}
+
+.sub-anuncio1-2 h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.sub-anuncio1-2 p {
+    font-size: 16px;
+    color: #fff;
 }
 
 .informacoes {
@@ -83,9 +110,29 @@ h1 {
     width: 900px;
 }
 
+.sub-informacoes1 h2 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.sub-informacoes1 span {
+    font-size: 32px;
+    color: #2f86d6;
+}
+
 .sub-informacoes2 {
     width: 1024px;
     display: flex;
+}
+
+.sub-informacoes2 h3 {
+    font-size: 18px;
+    color: #000000;
+}
+
+.sub-informacoes2 p {
+    font-size: 16px;
+    color: #000000;
 }
 
 .sub-informacoes2-1{
@@ -107,6 +154,16 @@ h1 {
 
 .sub-tabela {
     width: 1024px;
+}
+
+.sub-tabela h2 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.sub-tabela span {
+    font-size: 32px;
+    color: #2f86d6;
 }
 
 .anuncio2 {
