@@ -3,6 +3,7 @@
     border: 0;
     font-family: 'Poppins';
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 h1 {
