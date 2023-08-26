@@ -6,13 +6,27 @@
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 32px;
     color: #000000;
 }
 
-.topo p {
+p {
     font-size: 16px;
     color: #2f86d6;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+}
+
+.logo {
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.logo img {
+    width: 70px;
 }
 
 .container-menu {
@@ -24,7 +38,7 @@ h1 {
     justify-content: space-between;
 }
 
-.img-logo{    
+.img-logo {
     width: 70px;
 }
 
@@ -48,7 +62,8 @@ h1 {
     padding: 180px 0px;
     height: 200px;
 }
-.sub-banner1{
+
+.sub-banner1 {
     width: 1024px;
     display: flex;
 }
@@ -57,7 +72,7 @@ h1 {
     width: 50%;
 }
 
-.sub-banner2{
+.sub-banner2 {
     width: 470px;
 }
 
@@ -140,15 +155,15 @@ h1 {
     color: #000000;
 }
 
-.sub-informacoes2-1{
+.sub-informacoes2-1 {
     width: 33%;
 }
 
-.sub-informacoes2-2{
+.sub-informacoes2-2 {
     width: 33%;
 }
 
-.sub-informacoes2-3{
+.sub-informacoes2-3 {
     width: 33%;
 }
 
