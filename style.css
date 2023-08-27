@@ -7,18 +7,19 @@
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 120px;
-    
+    display: flex;
+    max-width: 1024px;
 }
 
-header div h1 {
+.logo-marca h1 {
     font-size: 32px;
     color: #000000;
     justify-content: center;
 }
 
-header span {
+.logo-marca span {
     display: block;
     font-size: 16px;
     color: #2f86d6;
@@ -26,15 +27,27 @@ header span {
 
 .menu {
     display: flex;
-    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
 }
 
-.logo {
+.img-logo {
     width: 90px;
 }
 
-nav {
-    text-align: right;
+.logo-marca {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
 }
 
 .menu-link {
@@ -45,20 +58,20 @@ nav {
 
 
 
-.banner1 {
+
+.banner {
     background-color: #2f86d6;
     padding: 180px 0px;
     height: 200px;
 }
 
-.sub-banner1 {
-    width: 1024px;
-    display: flex;
-}
-
-.sub-banner1 img {
+.conteudo-banner img {
     width: 50%;
 }
+
+
+
+
 
 .sub-banner2 {
     width: 470px;
@@ -156,6 +169,7 @@ nav {
 }
 
 .tabela {
+    display: flex;
     background-color: #a89f9f;
     padding: 100px 0px;
 }
