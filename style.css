@@ -65,13 +65,17 @@ header {
 
 .banner {
     background-color: #2f86d6;
-    padding: 180px 0px;
-    height: 500px;
+    padding: 90px 0px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.texto-banner {
-  
+.conteudo-banner {
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    color: #fff;
 }
 
 .conteudo-banner img {
@@ -79,7 +83,16 @@ header {
     margin: 0;
 }
 
+.texto-banner {
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
+.texto-banner h2 {
+    font-size: 28px;
+}
 
 
 
