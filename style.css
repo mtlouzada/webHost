@@ -12,7 +12,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 35px 0;
-    
+
 }
 
 .logo-marca h1 {
@@ -62,6 +62,7 @@ header {
 
 
 
+
 .banner {
     background-color: #2f86d6;
     padding: 90px 0px;
@@ -96,6 +97,7 @@ header {
 
 
 
+
 .anuncio {
     width: 100%;
     display: flex;
@@ -111,7 +113,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .texto-anuncio {
@@ -123,7 +125,7 @@ header {
     font-size: 24px;
 }
 
-.link-anuncio a{
+.link-anuncio a {
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -150,6 +152,9 @@ header {
 }
 
 
+
+
+
 .informacoes {
     width: 100%;
     display: flex;
@@ -165,6 +170,7 @@ header {
     max-width: 900px;
     text-align: center;
 }
+
 .titulo-informacoes h2 {
     font-size: 32px;
     color: #000000;
@@ -270,14 +276,9 @@ tfoot tr:nth-child(odd) {
     background-color: #f6f6f6;
 }
 
-tfoot td{
+tfoot td {
     box-shadow: 0 0 1px 0 #a89f9f;
 }
-
-
-
-
-
 
 
 
@@ -299,7 +300,6 @@ tfoot td{
     font-weight: 600;
 }
 
-
 .dev {
     width: 100%;
     text-align: center;
@@ -312,5 +312,3 @@ tfoot td{
     font-weight: 600;
     color: #2f86d6;
 }
-
-
