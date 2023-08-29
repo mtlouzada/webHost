@@ -231,6 +231,12 @@ header {
     color: #2f86d6;
 }
 
+table {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 20px 20px #2f86d6;
+}
+
 
 
 
