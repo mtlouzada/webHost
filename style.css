@@ -232,9 +232,36 @@ header {
 }
 
 table {
+    line-height: 3.5rem;
     background-color: #fff;
     text-align: center;
-    box-shadow: 0 0 20px 20px #2f86d6;
+    box-shadow: 0 0 20px 10px #2f86d6;
+    border-radius: 5px;
+}
+
+thead th, tbody td, tfoot td{
+    box-shadow: 0px 0 1px 0 #a89f9f;
+}
+
+thead {
+    font-size: 18px
+}
+
+tbody:nth-child(2) {
+    font-size: 13px;
+    color: #a89f9f;
+}
+
+tbody img {
+    width: 80px
+}
+
+tfoot {
+    font-size: 16px;
+}
+
+tfoot:nth-child(odd) {
+    background-color: #f6f6f6;
 }
 
 
