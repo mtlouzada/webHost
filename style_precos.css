@@ -60,6 +60,11 @@ header {
     font-weight: 600;
 }
 
+
+
+
+
+
 .tabela {
     padding: 100px 0px;
 }
@@ -68,19 +73,27 @@ header {
     width: 1024px;
 }
 
-.rodape {
-    padding: 100px 0px;
-}
 
-.sub-rodape {
-    width: 320px;
+footer {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 100px;
+    background-color: #2f86d6;
 }
 
-.sub-rodape2 {
+
+.dev {
+    width: 100%;
+    text-align: center;
+    background-color: #f1f3f7;
     padding: 20px 0px;
+    font-weight: 600;
 }
 
-img {
-    width: 150px;
+.dev span {
+    font-weight: 600;
+    color: #2f86d6;
 }
