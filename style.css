@@ -141,8 +141,13 @@ header {
     width: 18px;
 }
 
+.segundo {
+    background-color: #2f86d6;
+}
 
-
+.segundo a {
+    background-color: #233032;
+}
 
 
 .informacoes {
@@ -271,28 +276,6 @@ tfoot td{
 
 
 
-
-
-
-
-.anuncio2 {
-    background-color: #2f86d6;
-    padding: 40px 0px;
-    height: 40px;
-}
-
-.sub-anuncio2 {
-    width: 1024px;
-    display: flex;
-}
-
-.sub-anuncio2-2 {
-    width: 600px;
-}
-
-img {
-    width: 200px;
-}
 
 
 
