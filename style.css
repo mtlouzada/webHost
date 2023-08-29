@@ -150,7 +150,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f6f6f6;
+    background-color: #fff;
     padding: 100px 0px;
     flex-direction: column;
     gap: 1.5rem;
@@ -205,25 +205,28 @@ header {
 
 
 
-
-
-
-.tabela {
+.planos {
     display: flex;
-    background-color: #a89f9f;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
     padding: 100px 0px;
 }
 
-.sub-tabela {
-    width: 1024px;
+.tabela {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6rem;
 }
 
-.sub-tabela h2 {
+.titulo-tabela h2 {
     font-size: 32px;
     color: #000000;
 }
 
-.sub-tabela span {
+.titulo-tabela span {
     font-size: 32px;
     color: #2f86d6;
 }
