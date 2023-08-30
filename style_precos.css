@@ -79,6 +79,10 @@ section {
     text-align: center;
 }
 
+thead {
+    background-color: #f6f6f6;
+}
+
 thead th {
     font-size: 16px;
     color: #a89f9f;
@@ -88,6 +92,41 @@ thead th {
 thead td {
     font-size: 32px;
     font-weight: 800;
+}
+
+tbody td, tfoot td {
+    box-shadow: 0 0 1px 0 #a89f9f;
+}
+
+tbody td:nth-child(1) {
+    background-color: #f6f6f6;
+    text-align: left;
+}
+
+tbody .ponto::after {
+    content: "++";
+    font-size: 12px;
+    background-color: #2f86d6;
+    color: #2f86d6;
+    border-radius: 50%;
+}
+
+thead td {
+    padding: 6px;
+}
+
+tbody td {
+    padding: 4px;
+}
+
+thead .branco {
+    background-color: #fff;
+}
+
+
+tfoot td:nth-child(1) {
+    background-color: #f6f6f6;
+    text-align: left;
 }
 
 footer {
