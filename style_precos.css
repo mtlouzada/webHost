@@ -64,7 +64,6 @@ header {
 
 
 
-
 section {
     width: 100%;
     display: flex;
@@ -94,7 +93,8 @@ thead td {
     font-weight: 800;
 }
 
-tbody td, tfoot td {
+tbody td,
+tfoot td {
     box-shadow: 0 0 1px 0 #a89f9f;
 }
 
@@ -128,6 +128,11 @@ tfoot td:nth-child(1) {
     background-color: #f6f6f6;
     text-align: left;
 }
+
+
+
+
+
 
 footer {
     display: flex;
