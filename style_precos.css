@@ -65,14 +65,30 @@ header {
 
 
 
-.tabela {
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 100px 0px;
 }
 
-.sub-tabela {
-    width: 1024px;
+.tabela {
+    max-width: 1024px;
+    line-height: 3rem;
+    text-align: center;
 }
 
+thead th {
+    font-size: 16px;
+    color: #a89f9f;
+    font-weight: 200;
+}
+
+thead td {
+    font-size: 32px;
+    font-weight: 800;
+}
 
 footer {
     display: flex;
@@ -80,7 +96,7 @@ footer {
     justify-content: space-between;
     flex-direction: column;
     gap: 1.5rem;
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #2f86d6;
 }
 
