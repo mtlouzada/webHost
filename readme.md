@@ -1,4 +1,4 @@
-Website para um provedor de hospedagem
+Website para um provedor de hospedagem.
 
 - Tabelas
 
