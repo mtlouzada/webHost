@@ -7,6 +7,7 @@
 _Read this in other languages:_ 🇧🇷 [_Português_](./translations/README-ptBR.md) 🟢🟡
 
 Description:
+
 That academic project was made for training HTML structure and CSS methods. Of the type:
 
 > HTML structure 
@@ -38,7 +39,9 @@ At the end, open a Pull Request explaining the problem solved or feature made, i
 This project is under [MIT](https://github.com/mtlouzada/Cafeteria/blob/main/LICENSE) license
 
 ### Developed by 🧑🏻‍💻
+
 #### Matheus Louzada [LinkedIn](https://www.linkedin.com/in/matheus-louzadaa)
 
 ### Deploy ❇️
+
 🔗Link: [Provedor](https://mtlouzada.github.io./Provedor/)
